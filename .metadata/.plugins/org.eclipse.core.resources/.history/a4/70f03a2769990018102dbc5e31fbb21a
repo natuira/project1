@@ -1,0 +1,18 @@
+package com.pojo;
+
+public class Shape {
+
+	private String name;
+
+	public Shape() {
+		// TODO Auto-generated constructor stub
+		
+		name="noname";
+	}
+	public Shape(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+}

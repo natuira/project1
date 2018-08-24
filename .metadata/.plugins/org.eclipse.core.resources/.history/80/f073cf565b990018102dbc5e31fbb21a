@@ -1,0 +1,17 @@
+package com.myabstract;
+
+public class Cirlce extends Shape {
+
+	private int radius;
+	
+	public Cirlce() {
+		// TODO Auto-generated constructor stub
+		radius=10;
+	}
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

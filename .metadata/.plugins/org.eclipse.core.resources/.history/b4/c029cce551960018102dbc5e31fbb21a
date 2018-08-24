@@ -1,0 +1,14 @@
+
+public class DemoID {
+//declare an array
+//dataType [] name_of_array;
+//name of reference to an array
+//variable name but not name of an object
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] numbers;
+		number = new int[10];
+	}
+
+}

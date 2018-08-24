@@ -1,0 +1,21 @@
+import java.util.Date;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p  = new Person();
+		Person p1  = new Person();
+		
+		p.setValues(21, "Ira");
+		p1.setValues(16, "Mohini");
+		
+		p1.display();
+		p.display();
+		
+		"Ira Natu ".substring(2, -3);
+		
+		
+	}
+
+}

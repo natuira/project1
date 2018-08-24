@@ -1,0 +1,11 @@
+
+public class TestDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Date date1 = new Date(01,10,1996);
+		Date date2 = new Date(25,06,2018);
+		}
+
+}

@@ -1,0 +1,7 @@
+import com.pojo.Employee;
+
+public class EmployeeIO {
+
+	abstract public Employee readEmployee();
+	abstract public void writeEmployee(Employee employee);
+}

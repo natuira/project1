@@ -1,0 +1,16 @@
+
+public class Demo2D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [][] arrays;
+		
+		arrays=new int[3][3];
+		
+		array[0][0]=1;
+		array[0][1]=2;
+		array[0][2]=3;
+	}
+
+}

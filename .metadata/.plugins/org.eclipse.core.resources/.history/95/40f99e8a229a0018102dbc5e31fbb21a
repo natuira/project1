@@ -1,0 +1,11 @@
+import java.io.FileInputStream;
+
+public class DemoDeserialization {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		FileInputStream fi = new FileInputStream("student.txt");
+	}
+
+}

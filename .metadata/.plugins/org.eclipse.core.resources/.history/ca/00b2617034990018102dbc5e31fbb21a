@@ -1,0 +1,15 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class TestEmployee1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee e = new Employee();
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

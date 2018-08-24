@@ -1,0 +1,17 @@
+package com.myabstract;
+
+abstract public class Shape {
+	
+	private String name; 
+	public Shape() {
+		// TODO Auto-generated constructor stub
+		
+		name="No name";
+	}
+	
+	
+
+	abstract public double area();
+
+
+}

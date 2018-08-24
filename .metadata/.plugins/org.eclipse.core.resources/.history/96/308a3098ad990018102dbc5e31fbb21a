@@ -1,0 +1,23 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name ="citi";
+		System.out.println("Initial name: "+name);
+	/*	name=name.concat(",Pune");
+		System.out.println("Final name: "+name);
+		*/
+		String name1 = new String("citi");
+		if(name1.equals(name)) {
+			System.out.println("Equal");
+		}
+		else {
+			System.out.println("Not Equal");
+		}
+				
+		name.substring(2, 4);
+	}
+
+}

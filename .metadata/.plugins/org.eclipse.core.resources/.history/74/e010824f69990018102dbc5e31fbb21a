@@ -1,0 +1,19 @@
+package com.pojo;
+
+public class Shape {
+
+	private String name;
+	private double area;
+	public Shape() {
+		// TODO Auto-generated constructor stub
+		
+		name="No Name";
+	}
+	public Shape(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+	
+}

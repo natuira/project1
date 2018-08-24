@@ -1,0 +1,16 @@
+import com.pojo.Employee;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person e = new Employee(23000d, 123,21,"Ira");
+		
+		
+		e.display(10);
+
+		System.out.println(e);
+	}
+
+}

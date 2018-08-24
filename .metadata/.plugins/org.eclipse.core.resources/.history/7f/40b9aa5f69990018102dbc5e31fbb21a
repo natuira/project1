@@ -1,0 +1,15 @@
+package com.pojo;
+
+public class Shape {
+
+	private String name;
+	private double area;
+	private double perimeter;
+	
+	public Shape() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}

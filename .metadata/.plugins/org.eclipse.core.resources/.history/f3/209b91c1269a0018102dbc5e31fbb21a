@@ -1,0 +1,77 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+
+import com.pojo.Student;
+
+public class DemoSerialization {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student []s1 = new Student();
+		Student s2 = new Student();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0;i<2;i++) {
+			System.out.println("Student "+(i+1)+" information: ");
+			System.out.println("Enter RollNo: ");
+			s1.setRollNo(sc.nextInt());
+			
+			System.out.println("Enter name: ");
+			s1.setName(sc.next());
+			
+			System.out.println("Enter Total: ");
+			s1.setTotal(sc.nextInt());
+			
+				
+		}
+		
+		
+		try {
+			FileOutputStream fo = new FileOutputStream("student1.txt",true);
+			ObjectOutputStream oo = new ObjectOutputStream(fo);
+			oo.writeObject(s1);
+			ObjectOutputStream oo1 = new ObjectOutputStream(fo);
+
+			oo1.writeObject(s2);
+			
+			
+
+			
+			oo.close();
+			oo1.close();
+			fo.close();
+			
+			System.out.println("Operation completed");
+			
+			
+			
+			FileInputStream fi = new FileInputStream("student1.txt");
+			ObjectInputStream oi = new ObjectInputStream(fi);
+			
+			Object obj= oi.readObject();
+			Student s11 = (Student)obj;
+			System.out.println(s11);
+			Student s21 = (Student)obj;
+			System.out.println(s21);
+		} 
+		catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

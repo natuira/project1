@@ -1,0 +1,59 @@
+package com.pojo;
+
+import java.util.Arrays;
+
+public class Student {
+
+	private String name;
+	private int [] marks = new int[3];
+	private int rollNo;
+	public Student(String name, int[] marks, int rollNo) {
+		super();
+		this.name = name;
+		this.marks = marks;
+		this.rollNo = rollNo;
+	}
+	
+	public Student() {
+		
+		name=null;
+		for(int i=0;i<3;i++) {
+			marks[0]=0;
+		}
+		rollNo=0;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int[] getMarks() {
+		return marks;
+	}
+
+	public void setMarks(int[] marks) {
+		this.marks = marks;
+	}
+
+	public int getRollNo() {
+		return rollNo;
+	}
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public void display() {
+		
+		System.out.println("RollNo: "+rollNo+"\nName: "+name+"\nMarks: ");
+		for(int i=0;i<3;i++) {
+			System.out.println("Marks"+(i+1)+": "+marks[i]);
+		}
+		System.out.println();
+	}
+}

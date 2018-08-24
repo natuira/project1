@@ -1,0 +1,11 @@
+package com.myabstract;
+
+abstract public class Shape {
+	
+	abstract public double area();
+
+	public static void main(String[] args) {
+		
+		Shape s = new Shape():
+	}
+}

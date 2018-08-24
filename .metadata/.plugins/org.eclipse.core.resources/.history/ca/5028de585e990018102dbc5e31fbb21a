@@ -1,0 +1,6 @@
+
+public class EmployeeIO {
+
+	abstract public Employee readEmployee();
+	
+}

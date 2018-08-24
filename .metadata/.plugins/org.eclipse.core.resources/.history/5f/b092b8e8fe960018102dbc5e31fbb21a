@@ -1,0 +1,21 @@
+import com.one.MyClass;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyClass myclass = new MyClass();
+		myclass.display();
+
+	}
+
+}
+
+/*
+ * com.one.MyClass
+ * don't use it
+ * always try to use import statement to get tha classes from packages
+ * and thayt import will be ou of your class
+ * 
+ * */

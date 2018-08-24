@@ -1,0 +1,5 @@
+
+public class EmployeeIO {
+
+	public Employee readEmployee();
+}

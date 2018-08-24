@@ -1,0 +1,10 @@
+
+public class Demo1DObjects {
+
+	
+	public static void main(String [] args) {
+		Person [] persons;
+		persons= new Person[5];
+		System.out.println(persons);
+	}
+}

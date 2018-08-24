@@ -1,0 +1,20 @@
+
+public class DemoStatic {
+
+	private float age;
+	private String name;
+	
+	private static int value;
+	
+	public DemoStatic()
+	{
+		age=12.12f;
+		name="abcd";
+	}
+	
+	static {
+		value=0;
+	}
+	
+	
+}

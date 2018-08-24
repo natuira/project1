@@ -1,0 +1,11 @@
+
+public class DemoReflection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Class class1;
+
+	}
+
+}

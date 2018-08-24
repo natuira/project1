@@ -1,0 +1,7 @@
+
+public interface EmployeeIO {
+
+	double PI=3.14;
+	Employee readEmployee();
+	
+}

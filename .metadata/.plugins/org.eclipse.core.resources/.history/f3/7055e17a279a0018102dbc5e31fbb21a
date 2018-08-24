@@ -1,0 +1,8 @@
+package com.myinterfaces;
+
+import com.pojo.Student;
+
+public interface StudentFileIO {
+
+	public Student [] readStudents();
+}

@@ -1,0 +1,22 @@
+
+public class DemoID {
+//declare an array
+//dataType [] name_of_array;
+//name of reference to an array
+//variable name but not name of an object
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] numbers;
+		numbers = new int[5];
+		
+		numbers[0]=100;
+		numbers[1]=200;
+		numbers[2]=100;
+		numbers[3]=300;
+		numbers[4]=400;
+		
+		int add = numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4];
+		System.out.println("Addition: "+add);
+	}
+}

@@ -1,0 +1,43 @@
+
+public class DemoStatic {
+
+	private float age;
+	private String name;
+	
+	private static int value;
+	
+	public DemoStatic()
+	{
+		age=12.12f;
+		name="abcd";
+		value++;
+	}
+	
+	static {
+		value=0;
+	}
+	
+	public void display() {
+		System.out.println("Name: "+name+"\tAge: "+age+"\tValue: "+value);
+	}
+	
+	public static void show() {
+		System.out.println("\tValue: "+value);
+		
+	}
+	
+	public static void main(String []args) {
+		
+		DemoStatic.show();
+		DemoStatic d1 = new DemoStatic();
+		
+		DemoStatic d2 = new DemoStatic();
+		
+		DemoStatic d3 = new DemoStatic();
+		
+		DemoStatic d4 = new DemoStatic();
+
+		d3.show();
+	}
+	
+}

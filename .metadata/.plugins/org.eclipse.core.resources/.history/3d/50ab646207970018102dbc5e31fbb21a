@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+public class DemoArrayOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] numbers = {123,34,55,65,43,55,67,89,90};
+		/*
+		Arrays.fill(numbers, 0);
+		
+		for(int num : numbers) {
+			
+			System.out.print(num+"\t");
+		}
+*/
+		Arrays.fill(numbers, 1, 3, 6);
+		System.out.println("\n");
+		
+		for(int num : numbers) {
+			
+			System.out.print(num+"\t");
+		}
+		
+		int [] arr_copy=Arrays.copyOf(numbers,5);
+System.out.println("\n");
+		
+		for(int num : arr_copy) {
+			
+			System.out.print(num+"\t");
+		}
+		
+		String [] names = {"ABC","DEF","GHI","JKL"};
+		String [] names1 = {"ABC","DEF","GHI","JKL"};
+		
+		Arrays.equals(names, names1);		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class DemoStatic {
+
+	private float age;
+	private String name;
+	
+	private static int value;
+	
+}
